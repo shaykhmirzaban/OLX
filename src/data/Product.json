@@ -1,0 +1,98 @@
+{
+    "products": [
+        {
+            "Mobile Phones": [
+                {
+                    "companyName": "iphone",
+                    "name": "Iphone 13 pro max 128 gb Software",
+                    "price": "178,000",
+                    "address": "Nazimabad, Karachi . 18 hours ago",
+                    "featured": "Featured",
+                    "image": "./products/product1.jpg"
+                },
+                {
+                    "companyName": "iphone",
+                    "name": "Iphone 6splus 16gb ( PTA Approved )",
+                    "price": "19,500",
+                    "address": "G-13, Islamabad . 6 days ago",
+                    "featured": "Featured",
+                    "image": "./images/products/product2.jpg"
+                },
+                {
+                    "companyName": "iphone",
+                    "name": "iphone 11 lover",
+                    "price": "93,500",
+                    "address": "Abbottabad Heights Road, Abbottabad . 6 minutes ago",
+                    "image": "./images/products/product3.jpg"
+                },
+                {
+                    "companyName": "infinix",
+                    "name": "Infinix Hot 11 Play (4GB 64GB) Fingerprint 6000MAH Big Battery",
+                    "price": "26,000",
+                    "address": "Dharampura, Lahore . 3 days ago",
+                    "featured": "Featured",
+                    "image": "./images/products/infinix1.jpg"
+                },
+                {
+                    "companyName": "infinix",
+                    "name": "Infinix Hot 12 6/128 avail on easy installments",
+                    "price": "3,300",
+                    "address": "Shalimar Link Road, Lahore . 4 weeks ago",
+                    "featured": "Featured",
+                    "image": "./images/products/infinix2.jpg"
+                },
+                {
+                    "companyName": "infinix",
+                    "name": "4/64 for sale",
+                    "price": "17,000",
+                    "address": "Sargodha, Punjab . 6 minutes ago",
+                    "image": "./images/products/infinix3.jpg"
+                }
+            ],
+            "Cars": [
+                {
+                    "companyName": "mehran vxr",
+                    "price": "935,000",
+                    "name": "Suzuki Mehran VXR Euro II 2016",
+                    "address": "Johar Town Phase 1, Lahore . 17 hours ago",
+                    "image": "./images/products/car1.jpg"
+                },
+                {
+                    "companyName": "mehran vxr",
+                    "price": "560,000",
+                    "name": "suzunki mehran VXR 2009",
+                    "address": "Atari Saroba, Lahore . 4 days ago",
+                    "image": "./images/products/car2.jpg"
+                },
+                {
+                    "companyName": "mehran vxr",
+                    "price": "1,110,000",
+                    "name": "Mehran 2018 vxr",
+                    "address": "9th Avenue, Islamabad . 12 minutes ago",
+                    "image": "./images/products/car3.jpg"
+                },
+                {
+                    "companyName": "vitz",
+                    "price": "2,280,000",
+                    "name": "Toyota Vitz 2013",
+                    "address": "Askari, Lahore . 16 hours ago",
+                    "image": "./images/products/vitz1.jpg"
+                },
+                {
+                    "companyName": "vitz",
+                    "price": "1,600,000",
+                    "name": "Toyota Vitz 2009/13",
+                    "address": "Gohar Green City, Karachi . 2 days ago",
+                    "image": "./images/products/vitz2.jpg"
+                },
+                {
+                    "companyName": "vitz",
+                    "price": "4,200,000",
+                    "name": "Toyota Vitz F Safety Edition 3",
+                    "address": "DHA Phase 2, Karachi . 9 minutes ago",
+                    "image": "./images/products/vitz3.jpg"
+                }
+            ]
+        }
+    ]
+}

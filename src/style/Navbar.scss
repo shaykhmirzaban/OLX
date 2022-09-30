@@ -1,0 +1,219 @@
+.Navbar {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  position: sticky;
+  top: 0;
+  z-index: 111111;
+
+  .topNav {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+
+    .companyIcon {
+      padding: 0 2rem 0 0;
+      fill: #3a77ff;
+    }
+
+    .motors,
+    .property {
+      padding: 0 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      svg {
+        color: #1e1c1c;
+        background: #cbcbcb;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        padding: 0.2rem;
+        font-size: 1rem;
+      }
+
+      p {
+        padding: 0 0.5rem;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: #333;
+      }
+
+      &:hover {
+        svg {
+          color: #4881fc;
+          box-shadow: 0 0 5px 0 #4881fc;
+          background: #eee;
+        }
+        p {
+          color: #4881fc;
+        }
+      }
+    }
+  }
+
+  .navbar__sarching__area {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+
+    .logo {
+      cursor: pointer;
+      svg {
+        fill: #1c1a1a;
+      }
+    }
+
+    .search__part {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      select {
+        width: 200px;
+        padding: 0.7rem 1rem;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid #98b8ffdb;
+        margin: 0 1rem;
+        font-size: 1rem;
+
+        &:focus,
+        &:hover {
+          border-color: #3a77ff;
+        }
+      }
+
+      .search__area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input {
+          width: 400px;
+          padding: 0.7rem 1rem;
+          font-size: 1rem;
+          outline: none;
+          border: 2px solid #98b8ffdb;
+          border-radius: 10px;
+
+          &:focus,
+          &:hover {
+            border-color: #3a77ff;
+          }
+        }
+
+        .search_icon {
+          width: 45px;
+          height: 45px;
+          background: #3a77ff;
+          color: #eee;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 1rem;
+          border-radius: 10px;
+          cursor: pointer;
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      button {
+        width: 100px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        border-top: 5px solid #ffce32;
+        border-bottom: 5px solid #23e5db;
+        border-left: 5px solid #3a77ff;
+        border-right: 5px solid #3a77ff;
+        border-radius: 50px;
+        background-color: #fff;
+        font-weight: bold;
+        color: #333;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .Navbar .navbar__sarching__area {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      display: none;
+    }
+    .buttons {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .Navbar {
+    padding: 1rem 0;
+    position: relative;
+  }
+  .Navbar .navbar__sarching__area .search__part {
+    flex-wrap: wrap;
+
+    .search__area {
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 95%;
+
+      input {
+        width: 95%;
+      }
+
+      .search_icon {
+        width: 50px;
+        height: 50px;
+        margin: 1rem;
+      }
+    }
+    select {
+      margin: 1rem;
+      width: 95%;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.top_button {
+  width: 45px;
+  height: 45px;
+  z-index: 111;
+  background: #3a77ff;
+  outline: 2px solid #3a77ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 4rem;
+  right: 1rem;
+
+  a {
+    color: #fff;
+
+    svg {
+      font-size: 2rem;
+    }
+  }
+
+  &:hover {
+    outline: 2px solid #23e5db;
+  }
+}

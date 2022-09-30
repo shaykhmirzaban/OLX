@@ -1,0 +1,25 @@
+{
+  "subNavbar": [
+    {
+      "nav1": "Mobile Phones"
+    },
+    {
+      "nav1": "Cars"
+    },
+    {
+      "nav1": "Motorcycles"
+    },
+    {
+      "nav1": "Houses"
+    },
+    {
+      "nav1": "TV - Video - Audio"
+    },
+    {
+      "nav1": "Tablets"
+    },
+    {
+      "nav1": "Land & Plots"
+    }
+  ]
+}

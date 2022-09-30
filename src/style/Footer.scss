@@ -1,0 +1,136 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .footer__top {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238 238 238);
+
+    .center {
+      width: 95%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .categories {
+        padding: 1rem;
+
+        h4 {
+          font-size: 0.9rem;
+          padding: 0.9rem 0;
+        }
+
+        ul {
+          list-style: none;
+
+          li {
+            padding: 0.5rem 0;
+
+            a {
+              color: #3a3939;
+              font-size: 0.9rem;
+            }
+
+            &:hover {
+              padding-left: 0.3rem;
+
+              a {
+                color: #3a77ff;
+              }
+            }
+          }
+        }
+      }
+
+      .foolow__us {
+        padding: 1rem;
+
+        h4 {
+          padding: 0.9rem 0;
+        }
+
+        .social__icon {
+          list-style: none;
+          display: flex;
+          padding: 0.7rem 0;
+
+          li {
+            width: 27px;
+            height: 27px;
+            padding: 0.3rem;
+            border: 2px solid #565555;
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0.1rem;
+
+            a {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+
+            a svg {
+              font-size: 0.9rem;
+            }
+
+            &:hover {
+              border-color: #3a77ff;
+              box-shadow: 0 0 6px 0 #3a77ff;
+            }
+          }
+        }
+
+        .download__app__option {
+          display: flex;
+          flex-direction: column;
+          padding: 0.5rem 0;
+
+          a {
+            margin: 0 0.3rem;
+          }
+        }
+      }
+    }
+  }
+
+  .footer__bottom {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #3a77ff;
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    color: #1c1a1a;
+
+    p {
+      font-weight: bold;
+      font-size: 0.8rem;
+      color: #fff;
+    }
+
+    .copyright {
+      font-weight: normal;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer .footer__top .center {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .footer .footer__bottom {
+    justify-content: center;
+  }
+}

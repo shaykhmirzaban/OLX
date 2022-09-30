@@ -1,0 +1,30 @@
+.awssld {
+    width: 90%;
+    height: 200px;
+    margin: 3rem auto;
+}
+.awssld__wrapper {
+  border-radius: 50px;
+  border-top: 5px solid #ffce32;
+  border-left: 5px solid #3a77ff;
+  border-bottom: 5px solid #23e5db;
+  border-right: 5px solid #3a77ff;
+}
+
+.awssld__container {
+  padding-bottom: unset;
+}
+
+.awssld__content > img,
+.awssld__content > video {
+    width: auto;
+    height: auto;
+    position: unset;
+}
+
+.awssld__bullets button{
+    background: #7197ea;
+}
+.awssld__bullets .awssld__bullets--active{
+    background: #3a77ff;
+}

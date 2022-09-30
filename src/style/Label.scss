@@ -1,0 +1,48 @@
+.label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #f8faf9;
+
+  .right__side {
+    padding: 1rem 1rem 1rem 2rem;
+    border-left: 2px solid #afafaf;
+
+    .heading {
+      padding: 1rem 0;
+
+      h1 {
+        font-size: 1.1rem;
+        font-weight: lighter;
+        color: #1c1a1a;
+      }
+    }
+
+    .social__icons {
+      .center {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+    .label {
+        flex-wrap: wrap;
+
+        .left__side {
+            order: 1;
+        }
+
+        .right__side {
+            border: none;
+            padding: 2rem;
+
+            .heading {
+                text-align: center;
+            }
+        }
+    }
+}
