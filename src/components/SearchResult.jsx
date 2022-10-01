@@ -1,6 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
+// css
+import "../style/SearchResult.scss";
+
 // data
 import sorceCode from "../data/Product.json";
 
@@ -15,7 +18,6 @@ function SearchResult() {
       return value;
     }
   }).filter(Boolean);
-  console.log(arr);
 
   return (
     <React.StrictMode>
@@ -24,8 +26,8 @@ function SearchResult() {
           return (
             <div className="item" key={index}>
               <div className="left__side">
-                <img src={value.image} alt={value.name} />
-                <button>{value.featured}</button>
+                <img src={`../../${value.image}`} alt={value.name} />
+                {value.featured? <button>{value.featured}</button> : null}
               </div>
               <div className="right__side">
                 <div className="top">
